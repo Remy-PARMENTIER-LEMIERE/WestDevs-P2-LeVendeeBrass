@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router";
 
-import "./Homepage.css";
+import "./HomePage.css";
 import SpecialityCard from "../../components/SpecialityCard/SpecialityCard";
 
 interface SpecialitiesType {
