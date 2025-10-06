@@ -14,7 +14,7 @@ function HomePage() {
   const [specialities, setSpecialities] = useState<SpecialitiesType[]>([]);
 
   useEffect(() => {
-    fetch("http://localhost:3310/specialities")
+    fetch(`${import.meta.env.VITE_API_URL}/specialities`)
       .then((res) => res.json())
       .then((data) => {
         setSpecialities(data);

@@ -11,7 +11,7 @@ function MenuPage() {
   const [someCardOpenned, setSomeCardOpenned] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3310/menu")
+    fetch(`${import.meta.env.VITE_API_URL}/menu`)
       .then((response) => response.json())
       .then((data) => {
         setArrayOfMenus(data);

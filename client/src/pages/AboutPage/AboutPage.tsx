@@ -7,7 +7,7 @@ import "./AboutPage.css";
 function AboutPage() {
   const [arrayOfServices, setArrayOfServices] = useState<ServiceProps[]>([]);
   useEffect(() => {
-    fetch("http://localhost:3310/serviceTeam")
+    fetch(`${import.meta.env.VITE_API_URL}/serviceTeam`)
       .then((response) => response.json())
       .then((data) => setArrayOfServices(data));
   }, []);
