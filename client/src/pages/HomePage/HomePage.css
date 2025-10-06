@@ -44,7 +44,7 @@
   background-color: var(--primary-color);
   color: var(--light-text-color);
   font-family: "Marcellus", sans-serif;
-  background-image: url("Curve-Line-Background.svg");
+  background-image: url("/Curve-Line-Background.svg");
   background-size: cover;
 
   p {
