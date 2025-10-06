@@ -2,8 +2,8 @@
   background-color: var(--primary-color);
   padding-top: 30px;
   min-height: calc(100vh - 72px);
-  background-image: url("menu/background/Top-Curves.svg"),
-    url("menu/background/Bottom-Curves.svg");
+  background-image: url("/menu/background/Top-Curves.svg"),
+    url("/menu/background/Bottom-Curves.svg");
   background-size: contain;
   background-position: top right, bottom left;
   background-repeat: no-repeat, no-repeat;
